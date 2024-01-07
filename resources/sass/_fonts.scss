@@ -1,0 +1,104 @@
+// src/styles/fonts.scss
+
+@font-face {
+    font-family: "AntipastoProHairline";
+    src: url("../fonts/antipasto-pro/Antipasto-Pro-Hairline.otf")
+        format("opentype");
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: "AntipastoProThin";
+    src: url("../fonts/antipasto-pro/Antipasto-Pro-Thin.otf") format("opentype");
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: "AntipastoProExtralight";
+    src: url("../fonts/antipasto-pro/Antipasto-Pro-Extralight.otf")
+        format("opentype");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "AntipastoProLight";
+    src: url("../fonts/antipasto-pro/Antipasto-Pro-Light.otf")
+        format("opentype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "AntipastoProRegular";
+    src: url("../fonts/antipasto-pro/Antipasto-Pro-Regular.otf")
+        format("opentype");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "AntipastoProMedium";
+    src: url("../fonts/antipasto-pro/Antipasto-Pro-Medium.otf")
+        format("opentype");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "AntipastoProDemibold";
+    src: url("../fonts/antipasto-pro/Antipasto-Pro-Demibold.otf")
+        format("opentype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "AntipastoProBold";
+    src: url("../fonts/antipasto-pro/Antipasto-Pro-Bold.otf") format("opentype");
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: "AntipastoProExtrabold";
+    src: url("../fonts/antipasto-pro/Antipasto-Pro-Extrabold.otf")
+        format("opentype");
+    font-weight: 900;
+}
+
+.antipasto-pro-light {
+    font-family: "AntipastoProLight", sans-serif;
+}
+
+.antipasto-pro-extralight {
+    font-family: "AntipastoProExtralight", sans-serif;
+}
+
+.antipasto-pro-regular {
+    font-family: "AntipastoProRegular", sans-serif;
+}
+
+.antipasto-pro-hairline {
+    font-family: "AntipastoProHairline", sans-serif;
+}
+
+.antipasto-pro-medium {
+    font-family: "AntipastoProMedium", sans-serif;
+    /* Additional styles... */
+}
+
+.antipasto-pro-thin {
+    font-family: "AntipastoProThin", sans-serif;
+    /* Additional styles... */
+}
+
+.antipasto-pro-bold {
+    font-family: "AntipastoProBold", sans-serif;
+    /* Additional styles... */
+}
+
+.antipasto-pro-demibold {
+    font-family: "AntipastoProDemibold", sans-serif;
+    /* Additional styles... */
+}
+
+.antipasto-pro-extrabold {
+    font-family: "AntipastoProExtrabold", sans-serif;
+    /* Additional styles... */
+}

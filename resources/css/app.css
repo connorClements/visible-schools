@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400;500;600;700;900&display=swap");
+
+@import "../../node_modules/@fortawesome/fontawesome-free/css/all.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @font-face {
+    font-family: "Noto Serif JP";
+    src: url("https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200;300;400;500;600;700;900&display=swap");
+    font-display: swap;
+} */
+
+body {
+    font-family: "AntipastoPro", sans-serif;
+}
+
+@font-face {
+    font-family: "AntipastoPro";
+    src: url("../fonts/antipasto-pro/Antipasto-Pro-Hairline.otf")
+        format("opentype");
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: "AntipastoPro";
+    src: url("../fonts/antipasto-pro/Antipasto-Pro-Thin.otf") format("opentype");
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: "AntipastoPro";
+    src: url("../fonts/antipasto-pro/Antipasto-Pro-Extralight.otf")
+        format("opentype");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "AntipastoPro";
+    src: url("../fonts/antipasto-pro/Antipasto-Pro-Light.otf")
+        format("opentype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "AntipastoPro";
+    src: url("../fonts/antipasto-pro/Antipasto-Pro-Regular.otf")
+        format("opentype");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "AntipastoPro";
+    src: url("../fonts/antipasto-pro/Antipasto-Pro-Medium.otf")
+        format("opentype");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "AntipastoPro";
+    src: url("../fonts/antipasto-pro/Antipasto-Pro-Demibold.otf")
+        format("opentype");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "AntipastoPro";
+    src: url("../fonts/antipasto-pro/Antipasto-Pro-Bold.otf") format("opentype");
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: "AntipastoPro";
+    src: url("../fonts/antipasto-pro/Antipasto-Pro-Extrabold.otf")
+        format("opentype");
+    font-weight: 900;
+}
