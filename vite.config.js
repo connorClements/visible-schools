@@ -33,7 +33,7 @@ export default defineConfig({
     },
     build: {
         // Set the base path if your app is not hosted at the root of the domain
-        base: "/public/",
+        base: "/",
         // Set the public path if you are deploying to a non-root path
         // assetsDir: "public",
         terserOptions: {
