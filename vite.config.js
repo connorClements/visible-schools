@@ -31,16 +31,4 @@ export default defineConfig({
             vue: "vue/dist/vue.esm-bundler.js",
         },
     },
-    build: {
-        // Set the base path if your app is not hosted at the root of the domain
-        base: "/",
-        // Set the public path if you are deploying to a non-root path
-        // assetsDir: "public",
-        terserOptions: {
-            compress: {
-                drop_console: true,
-                // other terser options...
-            },
-        },
-    },
 });
