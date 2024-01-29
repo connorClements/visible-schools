@@ -1,0 +1,160 @@
+{
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.ttf": {
+    "file": "assets/fa-brands-400-003f1154.ttf",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.ttf"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff2": {
+    "file": "assets/fa-brands-400-faae6fc0.woff2",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff2"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.ttf": {
+    "file": "assets/fa-regular-400-7d81a1a7.ttf",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.ttf"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.woff2": {
+    "file": "assets/fa-regular-400-9169d8be.woff2",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-regular-400.woff2"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.ttf": {
+    "file": "assets/fa-solid-900-cea79b34.ttf",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.ttf"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2": {
+    "file": "assets/fa-solid-900-886c8611.woff2",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-solid-900.woff2"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-v4compatibility.ttf": {
+    "file": "assets/fa-v4compatibility-455e8e72.ttf",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-v4compatibility.ttf"
+  },
+  "node_modules/@fortawesome/fontawesome-free/webfonts/fa-v4compatibility.woff2": {
+    "file": "assets/fa-v4compatibility-335fd7d9.woff2",
+    "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-v4compatibility.woff2"
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-dc4c77ed.css",
+    "isEntry": true,
+    "src": "resources/css/app.css"
+  },
+  "resources/fonts/antipasto-pro/Antipasto-Pro-Bold.otf": {
+    "file": "assets/Antipasto-Pro-Bold-84ed288b.otf",
+    "src": "resources/fonts/antipasto-pro/Antipasto-Pro-Bold.otf"
+  },
+  "resources/fonts/antipasto-pro/Antipasto-Pro-Demibold.otf": {
+    "file": "assets/Antipasto-Pro-Demibold-0b55edd8.otf",
+    "src": "resources/fonts/antipasto-pro/Antipasto-Pro-Demibold.otf"
+  },
+  "resources/fonts/antipasto-pro/Antipasto-Pro-Extrabold.otf": {
+    "file": "assets/Antipasto-Pro-Extrabold-1edc232b.otf",
+    "src": "resources/fonts/antipasto-pro/Antipasto-Pro-Extrabold.otf"
+  },
+  "resources/fonts/antipasto-pro/Antipasto-Pro-Extralight.otf": {
+    "file": "assets/Antipasto-Pro-Extralight-3fe6a07b.otf",
+    "src": "resources/fonts/antipasto-pro/Antipasto-Pro-Extralight.otf"
+  },
+  "resources/fonts/antipasto-pro/Antipasto-Pro-Hairline.otf": {
+    "file": "assets/Antipasto-Pro-Hairline-11c067ba.otf",
+    "src": "resources/fonts/antipasto-pro/Antipasto-Pro-Hairline.otf"
+  },
+  "resources/fonts/antipasto-pro/Antipasto-Pro-Light.otf": {
+    "file": "assets/Antipasto-Pro-Light-5dbfe276.otf",
+    "src": "resources/fonts/antipasto-pro/Antipasto-Pro-Light.otf"
+  },
+  "resources/fonts/antipasto-pro/Antipasto-Pro-Medium.otf": {
+    "file": "assets/Antipasto-Pro-Medium-696b4870.otf",
+    "src": "resources/fonts/antipasto-pro/Antipasto-Pro-Medium.otf"
+  },
+  "resources/fonts/antipasto-pro/Antipasto-Pro-Regular.otf": {
+    "file": "assets/Antipasto-Pro-Regular-8651ad5a.otf",
+    "src": "resources/fonts/antipasto-pro/Antipasto-Pro-Regular.otf"
+  },
+  "resources/fonts/antipasto-pro/Antipasto-Pro-Thin.otf": {
+    "file": "assets/Antipasto-Pro-Thin-e64b5548.otf",
+    "src": "resources/fonts/antipasto-pro/Antipasto-Pro-Thin.otf"
+  },
+  "resources/img/about-image.jpg": {
+    "file": "assets/about-image-a9cefa71.jpg",
+    "src": "resources/img/about-image.jpg"
+  },
+  "resources/img/badge.jpg": {
+    "file": "assets/badge-330e20eb.jpg",
+    "src": "resources/img/badge.jpg"
+  },
+  "resources/img/bags.jpg": {
+    "file": "assets/bags-a4a08760.jpg",
+    "src": "resources/img/bags.jpg"
+  },
+  "resources/img/banner.jpg": {
+    "file": "assets/banner-4737da73.jpg",
+    "src": "resources/img/banner.jpg"
+  },
+  "resources/img/book.jpg": {
+    "file": "assets/book-ca88072f.jpg",
+    "src": "resources/img/book.jpg"
+  },
+  "resources/img/chalkboard.jpg": {
+    "file": "assets/chalkboard-8c00c0df.jpg",
+    "src": "resources/img/chalkboard.jpg"
+  },
+  "resources/img/contact-image.jpg": {
+    "file": "assets/contact-image-b0ea6e21.jpg",
+    "src": "resources/img/contact-image.jpg"
+  },
+  "resources/img/hoodie.jpg": {
+    "file": "assets/hoodie-003fcabb.jpg",
+    "src": "resources/img/hoodie.jpg"
+  },
+  "resources/img/notebooks.jpg": {
+    "file": "assets/notebooks-9977c47a.jpg",
+    "src": "resources/img/notebooks.jpg"
+  },
+  "resources/img/prospectus.jpg": {
+    "file": "assets/prospectus-b6d3c100.jpg",
+    "src": "resources/img/prospectus.jpg"
+  },
+  "resources/img/schoolbag.jpg": {
+    "file": "assets/schoolbag-de37346f.jpg",
+    "src": "resources/img/schoolbag.jpg"
+  },
+  "resources/img/seo.jpg": {
+    "file": "assets/seo-d8fbeb01.jpg",
+    "src": "resources/img/seo.jpg"
+  },
+  "resources/img/sign.jpg": {
+    "file": "assets/sign-69ee46c4.jpg",
+    "src": "resources/img/sign.jpg"
+  },
+  "resources/img/social-media.jpg": {
+    "file": "assets/social-media-c6ae7524.jpg",
+    "src": "resources/img/social-media.jpg"
+  },
+  "resources/img/sportskit.jpg": {
+    "file": "assets/sportskit-a5aff94d.jpg",
+    "src": "resources/img/sportskit.jpg"
+  },
+  "resources/img/stationery.jpg": {
+    "file": "assets/stationery-ca4fa27c.jpg",
+    "src": "resources/img/stationery.jpg"
+  },
+  "resources/img/website.jpg": {
+    "file": "assets/website-8bb1399a.jpg",
+    "src": "resources/img/website.jpg"
+  },
+  "resources/js/app.css": {
+    "file": "assets/app-0d3552a8.css",
+    "src": "resources/js/app.css"
+  },
+  "resources/js/app.js": {
+    "css": [
+      "assets/app-0d3552a8.css"
+    ],
+    "file": "assets/app-7807ea45.js",
+    "isEntry": true,
+    "src": "resources/js/app.js"
+  },
+  "resources/sass/app.scss": {
+    "file": "assets/app-3a521a1e.css",
+    "isEntry": true,
+    "src": "resources/sass/app.scss"
+  }
+}
