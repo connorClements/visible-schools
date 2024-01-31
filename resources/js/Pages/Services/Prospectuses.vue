@@ -14,7 +14,7 @@ import Contact from "../../Components/Contact.vue";
                 <div class="text-4xl">Prospectuses</div>
             </div>
         </div>
-        <div class="grid grid-cols-2 p-8 text-xl min-h-[70vh]">
+        <div class="grid-cols-1 lg:grid-cols-2 p-8 text-xl min-h-[70vh]">
             <div class="flex items-center">
                 <div
                     class="border-4 rounded-2 text-4xl p-4 rounded-2 rotate-12"

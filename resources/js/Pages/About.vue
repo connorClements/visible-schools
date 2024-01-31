@@ -23,7 +23,7 @@ import Contact from "../Components/Contact.vue";
             ></div>
             <div
                 data-aos="fade-up"
-                class="p-8 flex flex-col justify-center lg:w-[75%]"
+                class="p-8 flex flex-col justify-center lg:w-[75%] text-base"
             >
                 <div class="pb-8 text-4xl text-v-charcoal font-bold">
                     Visible Schools

@@ -44,9 +44,9 @@
             </div>
 
             <div
-                class="flex flex-row items-center font-regular text-sm gap-x-4 pr-4 text-black"
+                class="flex flex-row items-center font-regular text-base gap-x-4 text-black"
             >
-                <a @click="toggleNav" class="p-2 lg:hidden flex align-center"
+                <a @click="toggleNav" class="p-2 lg:hidden flex items-center"
                     ><i
                         v-if="navOn === true"
                         class="fa-solid fa-bars text-2xl"
@@ -55,51 +55,146 @@
                 ></a>
                 <a
                     href="/about"
-                    class="hover:underline p-2 hidden lg:flex align-center"
+                    class="hover:underline p-2 hidden lg:flex items-center"
                     >About Us</a
                 >
-                <a
-                    href="/services"
-                    class="hover:underline rounded-sm p-2 hidden lg:flex align-center"
-                    >Our Services</a
-                >
+                <span @mouseover="mouseover" @mouseleave="mouseleave">
+                    <a
+                        href="/services"
+                        class="rounded-sm p-2 hidden lg:flex items-center"
+                        ><span class="hover:underline">Our Services</span>
+                        <i class="fa fa-chevron-down text-[12px] ps-1"></i
+                    ></a>
+                    <div
+                        v-if="isOpen"
+                        class="absolute w-64 bg-white shadow-lg rounded-b-md"
+                    >
+                        <div class="flex flex-col">
+                            <div class="p-3 hover:underline">
+                                <a href="/services/book-bags">Book Bags</a>
+                            </div>
+                            <div class="p-3 hover:underline">
+                                <a href="/services/banners">Roller Banners</a>
+                            </div>
+                            <div class="p-3 hover:underline">
+                                <a href="/services/leavers-hoodies">
+                                    Leavers Hoodies</a
+                                >
+                            </div>
+                            <div class="p-3 hover:underline">
+                                <a href="/services/sports-kits">Sports Kits</a>
+                            </div>
+                            <div class="p-3 hover:underline">
+                                <a href="/services/merchandising"
+                                    >Merchandise</a
+                                >
+                            </div>
+                            <div class="p-3 hover:underline">
+                                <a href="/services/prospectuses"
+                                    >Prospectuses</a
+                                >
+                            </div>
+                            <div class="p-3 hover:underline">
+                                <a href="/services/seo">SEO</a>
+                            </div>
+                            <div class="p-3 hover:underline">
+                                <a href="/services/signage">Signage</a>
+                            </div>
+                            <div class="p-3 hover:underline">
+                                <a href="/services/social-media"
+                                    >Social Media</a
+                                >
+                            </div>
+                            <div class="p-3 hover:underline">
+                                <a href="/services/web-dev"
+                                    >Website Development</a
+                                >
+                            </div>
+                            <div class="p-3 hover:underline">
+                                <a href="/services/yearbooks">Yearbooks</a>
+                            </div>
+                        </div>
+                    </div>
+                </span>
 
                 <a
                     href="/contact"
-                    class="hover:underline rounded-sm p-2 hidden lg:flex align-center"
+                    class="hover:underline rounded-sm p-2 hidden lg:flex items-center"
                     >Get in Touch</a
                 >
             </div>
         </div>
         <!-- Responsive Menu for Small Screens -->
         <div
-            class="absolute h-[100vh - 56px] bg-v-charcoal transition-all right-0"
+            class="fixed bg-v-charcoal transition-all right-0 max-h-[80%] overflow-y-scroll"
             :class="{
                 'w-[100vw]': !navOn,
                 'w-0': navOn,
             }"
         >
             <div
-                class="flex flex-col text-sm gap-x-4 pr-4 text-white p-4 transition-all"
+                class="flex flex-col relative h-auto text-sm gap-x-4 pr-4 text-white p-4 transition-all"
             >
-                <div class="text-2xl font-bold pb-2 block whitespace-nowrap">
-                    Navigation
+                <div class="h-full">
+                    <div
+                        class="text-2xl font-bold pb-2 block whitespace-nowrap"
+                    >
+                        Navigation
+                    </div>
+
+                    <a
+                        href="/about"
+                        class="block whitespace-nowrap py-3 uppercase"
+                        >About Us</a
+                    >
+                    <a
+                        href="/services"
+                        class="block whitespace-nowrap rounded-sm py-3 uppercase"
+                        >Our Services</a
+                    >
+                    <div class="flex flex-col">
+                        <div class="p-3 hover:underline">
+                            <a href="/services/book-bags">Book Bags</a>
+                        </div>
+                        <div class="p-3 hover:underline">
+                            <a href="/services/banners">Roller Banners</a>
+                        </div>
+                        <div class="p-3 hover:underline">
+                            <a href="/services/leavers-hoodies">
+                                Leavers Hoodies</a
+                            >
+                        </div>
+                        <div class="p-3 hover:underline">
+                            <a href="/services/sports-kits">Sports Kits</a>
+                        </div>
+                        <div class="p-3 hover:underline">
+                            <a href="/services/merchandising">Merchandise</a>
+                        </div>
+                        <div class="p-3 hover:underline">
+                            <a href="/services/prospectuses">Prospectuses</a>
+                        </div>
+                        <div class="p-3 hover:underline">
+                            <a href="/services/seo">SEO</a>
+                        </div>
+                        <div class="p-3 hover:underline">
+                            <a href="/services/signage">Signage</a>
+                        </div>
+                        <div class="p-3 hover:underline">
+                            <a href="/services/social-media">Social Media</a>
+                        </div>
+                        <div class="p-3 hover:underline">
+                            <a href="/services/web-dev">Website Development</a>
+                        </div>
+                        <div class="p-3 hover:underline">
+                            <a href="/services/yearbooks">Yearbooks</a>
+                        </div>
+                    </div>
+                    <a
+                        href="/contact"
+                        class="block whitespace-nowrap rounded-sm py-3 uppercase"
+                        >Get in Touch</a
+                    >
                 </div>
-
-                <a href="/about" class="block whitespace-nowrap py-3 uppercase"
-                    >About Us</a
-                >
-                <a
-                    href="/services"
-                    class="block whitespace-nowrap rounded-sm py-3 uppercase"
-                    >Our Services</a
-                >
-
-                <a
-                    href="/contact"
-                    class="block whitespace-nowrap rounded-sm py-3 uppercase"
-                    >Get in Touch</a
-                >
             </div>
         </div>
     </div>
@@ -110,6 +205,7 @@ export default {
     data() {
         return {
             navOn: true,
+            isOpen: false,
         };
     },
 
@@ -120,6 +216,13 @@ export default {
     methods: {
         toggleNav() {
             this.navOn = !this.navOn;
+        },
+
+        mouseover: function () {
+            this.isOpen = true;
+        },
+        mouseleave: function () {
+            this.isOpen = false;
         },
     },
 };

@@ -15,7 +15,7 @@ import Contact from "../Components/Contact.vue";
                 <div
                     class="max-w-screen-sm text-2xl sm:text-4xl tracking-wide pb-8 px-2"
                 >
-                    Expert Precision, Tailored Print Solutions for Schools
+                    Expert, Best Value, Tailored Print Solutions for Schools
                 </div>
                 <a href="/contact">
                     <span
@@ -37,7 +37,7 @@ import Contact from "../Components/Contact.vue";
                 >
                     <div><i class="fa-solid fa-print text-6xl"></i></div>
                     <div class="text-xl px-2 pt-8">
-                        Quality School Printing Solutions
+                        Ultimate Quality School Marketing Solutions
                     </div>
                     <!-- <div class="text-md">
                         Elevate learning with impeccable school printing
@@ -49,7 +49,7 @@ import Contact from "../Components/Contact.vue";
                 >
                     <div><i class="fa-solid fa-medal text-6xl"></i></div>
                     <div class="text-xl px-2 pt-8">
-                        In-Store Printing Excellence
+                        Guaranteed Printing Excellence
                     </div>
                     <!-- <div class="text-md">
                         Instant in-store printing: where speed meets quality
@@ -71,7 +71,7 @@ import Contact from "../Components/Contact.vue";
                 >
                     <div><i class="fa-solid fa-list-check text-6xl"></i></div>
                     <div class="text-xl px-2 pt-8">
-                        Effortless Project Coordination
+                        Effortless Project Delivery
                     </div>
                     <!-- <div class="text-md">
                         Simplify school projects with our effortless management
@@ -88,11 +88,12 @@ import Contact from "../Components/Contact.vue";
                 class="flex flex-col items-center lg:max-w-[50vw] text-center px-8 lg:p-0"
             >
                 <div class="text-xl">
-                    "We used to have a traditional roster of suppliers all doing
+                    "We used to have a traditional roster of printers all doing
                     one or two products for us. We now contact Visible for any
-                    requirement. No one else has ever come to us with such
-                    amazing pro-active cost savings plus new and innovative
-                    products to get us seen"
+                    requirement. No one else has ever come to us and delivered
+                    such amazing pro-active cost savings plus new and innovative
+                    products to get the school noticed. Great to save hours
+                    every week!"
                 </div>
                 <div class="text-sm font-bold pt-4 lg:pt-8">
                     - Julia, Marketing Manager
