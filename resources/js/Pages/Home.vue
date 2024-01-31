@@ -1,9 +1,29 @@
 <script setup>
 import Layout from "../Layouts/Layout.vue";
 import Contact from "../Components/Contact.vue";
+import { Head } from "@inertiajs/vue3";
 </script>
 
 <template>
+    <Head>
+        <meta
+            property="og:title"
+            content="Visible Schools - High-Quality Printing for Schools"
+        />
+        <meta
+            property="og:description"
+            content="Explore our high-quality printing services tailored for schools at Visible Schools."
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://visible-schools.co.uk/about" />
+        <meta
+            property="og:image"
+            content="https://visible-schools.co.uk/build/public/images/logos/logo-no-text.png"
+        />
+        <!-- Provide a square image for better display -->
+        <meta property="og:image:alt" content="Visible Schools Logo" />
+        <meta property="og:site_name" content="Visible Schools" />
+    </Head>
     <Layout>
         <div
             class="bg-home-image bg-cover bg-center min-h-[90vh] flex justify-center items-center text-black"

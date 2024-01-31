@@ -1,10 +1,29 @@
 <script setup>
 import Layout from "../Layouts/Layout.vue";
-import Contact from "../Components/Contact.vue";
 import axios from "axios";
+import { Head } from "@inertiajs/vue3";
 </script>
 
 <template>
+    <Head>
+        <meta
+            name="keywords"
+            content="Visible Schools, contact us, get in touch, school printing contact, printing services inquiry, customer support"
+        />
+
+        <meta
+            property="og:url"
+            content="https://visible-schools.co.uk/contact"
+        />
+        <meta
+            property="og:title"
+            content="Contact Visible Schools Printing Services"
+        />
+        <meta
+            name="description"
+            content="Contact Visible Schools for all your printing needs. Reach out to us for inquiries, quotes, and assistance with our high-quality printing services for schools."
+        />
+    </Head>
     <Layout>
         <div
             class="bg-contact-image bg-cover bg-scroll bg-center min-h-[60vh] flex flex-col justify-center items-center text-black"

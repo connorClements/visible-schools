@@ -1,4 +1,23 @@
+<script setup>
+import { Head } from "@inertiajs/vue3";
+</script>
+
 <template>
+    <Head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="robots" content="index, follow" />
+        <meta name="googlebot" content="index, follow" />
+        <meta name="theme-color" content="#17B3AE" />
+        <meta property="og:type" content="website" />
+        <meta
+            property="og:image"
+            content="https://visible-schools.co.uk/build/public/images/logos/logo-no-text.png"
+        />
+        <!-- Provide a square image for better display -->
+        <meta property="og:image:alt" content="Visible Schools Logo" />
+        <meta property="og:site_name" content="Visible Schools" />
+    </Head>
     <div
         class="fixed w-[100vw] z-10 shadow-lg"
         style="background: rgba(255, 255, 255)"

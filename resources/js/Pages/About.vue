@@ -1,9 +1,30 @@
 <script setup>
 import Layout from "../Layouts/Layout.vue";
 import Contact from "../Components/Contact.vue";
+import { Head } from "@inertiajs/vue3";
 </script>
 
 <template>
+    <Head>
+        <meta
+            name="description"
+            content="Learn more about Visible Schools and our printing services."
+        />
+        <meta
+            name="keywords"
+            content="Visible Schools, school printing, about us, printing services, education printing, school services"
+        />
+
+        <meta property="og:url" content="https://visible-schools.co.uk/about" />
+        <meta
+            property="og:title"
+            content="About Visible Schools Printing Services"
+        />
+        <meta
+            property="og:description"
+            content="Learn more about Visible Schools and our printing services."
+        />
+    </Head>
     <Layout>
         <div
             class="bg-about-image bg-cover bg-scroll bg-center min-h-[80vh] flex justify-center items-center text-black"

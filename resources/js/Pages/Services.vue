@@ -1,9 +1,29 @@
 <script setup>
 import Layout from "../Layouts/Layout.vue";
 import Contact from "../Components/Contact.vue";
+import { Head } from "@inertiajs/vue3";
 </script>
 
 <template>
+    <Head>
+        <meta
+            name="keywords"
+            content="Visible Schools, printing services, school printing, education printing, custom printing, school marketing materials"
+        />
+        <meta
+            property="og:url"
+            content="https://visible-schools.co.uk/services"
+        />
+        <meta property="og:title" content="Visible Schools Printing Services" />
+        <meta
+            name="description"
+            content="Visible Schools Printing Services offers a comprehensive range of high-quality printing solutions for schools. Explore our services, including customized book bags, leavers hoodies, banners, website development, SEO, prospectuses, and calendars. Elevate your school's brand with our tailored printing expertise. Contact us for inquiries and quotes."
+        />
+        <meta
+            name="keywords"
+            content="Visible Schools, printing services, school printing, book bags, leavers hoodies, banners, website development, SEO, prospectuses, calendars, customized printing, school marketing, promotional materials"
+        />
+    </Head>
     <Layout>
         <div
             class="bg-chalkboard-image bg-contain bg-no-repeat bg-center bg-scroll min-h-[60vh] xs:min-h-[70vh] sm:min-h-[80vh] flex justify-center items-center text-black"
