@@ -1,6 +1,7 @@
 <script setup>
 import Layout from "../../Layouts/Layout.vue";
 import Contact from "../../Components/Contact.vue";
+import Slider from "../../Components/Slider.vue";
 </script>
 <template>
     <Layout>
@@ -14,36 +15,47 @@ import Contact from "../../Components/Contact.vue";
                 <div class="text-4xl">Book Bags</div>
             </div>
         </div>
+
         <div class="grid grid-cols-1 lg:grid-cols-2 p-8 text-xl min-h-[70vh]">
             <div class="flex items-center">
-                <div
-                    class="border-4 rounded-2 text-4xl p-4 rounded-2 rotate-12"
-                >
-                    * Image Samples go here *
-                </div>
-            </div>
-            <div class="flex items-center">
                 <div>
-                    <div class="pb-2 text-3xl">Lorem Ipsum</div>
+                    <div class="pb-2 text-3xl">Book Bags</div>
 
                     <div class="py-2">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua.
+                        The largest selection of durable standard book bags, PE
+                        Swim bags and Back Packs at amazing rates! Our range
+                        ensures happy pupils carry great looking UK produced
+                        bags.
                     </div>
                     <div class="py-2">
-                        Ut enim ad minim veniam, quis nostrud exercitation
-                        ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        Duis aute irure dolor in reprehenderit in voluptate
-                        velit esse cillum dolore eu fugiat nulla pariatur.
+                        Handles or no handles, fluorescent strips, hi-vis
+                        stripes, we have hundreds of options. Our bright and
+                        vibrant bags come in a range of hardwearing and
+                        sustainable materials at very competitive prices.
                     </div>
                     <div class="py-2">
-                        Excepteur sint occaecat cupidatat non proident, sunt in
-                        culpa qui officia deserunt mollit anim id est laborum.
+                        Email for our full range of available superb bags.
                     </div>
                 </div>
+            </div>
+            <div class="p-4">
+                <Slider :items="bags" />
             </div>
         </div>
         <Contact></Contact>
     </Layout>
 </template>
+<script>
+export default {
+    data() {
+        return {
+            bags: [
+                { id: 1, url: "/build/public/images/bags/bag1.jpg" },
+                { id: 2, url: "/build/public/images/bags/bag2.jpg" },
+                { id: 3, url: "/build/public/images/bags/bag3.jpg" },
+                { id: 4, url: "/build/public/images/bags/bag4.jpg" },
+            ],
+        };
+    },
+};
+</script>

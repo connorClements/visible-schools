@@ -1,6 +1,7 @@
 <script setup>
 import Layout from "../../Layouts/Layout.vue";
 import Contact from "../../Components/Contact.vue";
+import Slider from "../../Components/Slider.vue";
 </script>
 <template>
     <Layout>
@@ -15,13 +16,6 @@ import Contact from "../../Components/Contact.vue";
             </div>
         </div>
         <div class="grid grid-cols-1 lg:grid-cols-2 p-8 text-xl min-h-[70vh]">
-            <div class="flex items-center">
-                <div
-                    class="border-4 rounded-2 text-4xl p-4 rounded-2 rotate-12"
-                >
-                    * Image Samples go here *
-                </div>
-            </div>
             <div class="flex items-center">
                 <div>
                     <div class="pb-2 text-3xl">Lorem Ipsum</div>
@@ -43,7 +37,23 @@ import Contact from "../../Components/Contact.vue";
                     </div>
                 </div>
             </div>
+            <div class="p-4">
+                <Slider :items="hoodies" />
+            </div>
         </div>
         <Contact></Contact>
     </Layout>
 </template>
+<script>
+export default {
+    data() {
+        return {
+            hoodies: [
+                { id: 1, url: "/build/public/images/hoodies/hoodies1.jpg" },
+                { id: 2, url: "/build/public/images/hoodies/hoodies2.jpg" },
+                { id: 3, url: "/build/public/images/hoodies/hoodies3.jpg" },
+            ],
+        };
+    },
+};
+</script>

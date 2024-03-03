@@ -90,18 +90,12 @@ import { Head } from "@inertiajs/vue3";
                     >
                         <div class="flex flex-col">
                             <div class="p-3 hover:underline">
-                                <a href="/services/book-bags">Book Bags</a>
-                            </div>
-                            <div class="p-3 hover:underline">
-                                <a href="/services/banners">Roller Banners</a>
-                            </div>
-                            <div class="p-3 hover:underline">
-                                <a href="/services/leavers-hoodies">
-                                    Leavers Hoodies</a
+                                <a href="/services/prospectuses"
+                                    >Prospectuses</a
                                 >
                             </div>
                             <div class="p-3 hover:underline">
-                                <a href="/services/sports-kits">Sports Kits</a>
+                                <a href="/services/yearbooks">Yearbooks</a>
                             </div>
                             <div class="p-3 hover:underline">
                                 <a href="/services/merchandising"
@@ -109,16 +103,23 @@ import { Head } from "@inertiajs/vue3";
                                 >
                             </div>
                             <div class="p-3 hover:underline">
-                                <a href="/services/prospectuses"
-                                    >Prospectuses</a
+                                <a href="/services/leavers-hoodies"
+                                    >Leavers Hoodies</a
                                 >
                             </div>
                             <div class="p-3 hover:underline">
-                                <a href="/services/seo">SEO</a>
+                                <a href="/services/book-bags">Book Bags</a>
+                            </div>
+                            <div class="p-3 hover:underline">
+                                <a href="/services/sports-kits">Sports Kits</a>
                             </div>
                             <div class="p-3 hover:underline">
                                 <a href="/services/signage">Signage</a>
                             </div>
+                            <div class="p-3 hover:underline">
+                                <a href="/services/banners">Roller Banners</a>
+                            </div>
+
                             <div class="p-3 hover:underline">
                                 <a href="/services/social-media"
                                     >Social Media</a
@@ -130,7 +131,7 @@ import { Head } from "@inertiajs/vue3";
                                 >
                             </div>
                             <div class="p-3 hover:underline">
-                                <a href="/services/yearbooks">Yearbooks</a>
+                                <a href="/services/seo">SEO</a>
                             </div>
                         </div>
                     </div>
@@ -173,31 +174,32 @@ import { Head } from "@inertiajs/vue3";
                     >
                     <div class="flex flex-col">
                         <div class="p-3 hover:underline">
-                            <a href="/services/book-bags">Book Bags</a>
+                            <a href="/services/prospectuses">Prospectuses</a>
                         </div>
                         <div class="p-3 hover:underline">
-                            <a href="/services/banners">Roller Banners</a>
-                        </div>
-                        <div class="p-3 hover:underline">
-                            <a href="/services/leavers-hoodies">
-                                Leavers Hoodies</a
-                            >
-                        </div>
-                        <div class="p-3 hover:underline">
-                            <a href="/services/sports-kits">Sports Kits</a>
+                            <a href="/services/yearbooks">Yearbooks</a>
                         </div>
                         <div class="p-3 hover:underline">
                             <a href="/services/merchandising">Merchandise</a>
                         </div>
                         <div class="p-3 hover:underline">
-                            <a href="/services/prospectuses">Prospectuses</a>
+                            <a href="/services/leavers-hoodies"
+                                >Leavers Hoodies</a
+                            >
                         </div>
                         <div class="p-3 hover:underline">
-                            <a href="/services/seo">SEO</a>
+                            <a href="/services/book-bags">Book Bags</a>
+                        </div>
+                        <div class="p-3 hover:underline">
+                            <a href="/services/sports-kits">Sports Kits</a>
                         </div>
                         <div class="p-3 hover:underline">
                             <a href="/services/signage">Signage</a>
                         </div>
+                        <div class="p-3 hover:underline">
+                            <a href="/services/banners">Roller Banners</a>
+                        </div>
+
                         <div class="p-3 hover:underline">
                             <a href="/services/social-media">Social Media</a>
                         </div>
@@ -205,7 +207,7 @@ import { Head } from "@inertiajs/vue3";
                             <a href="/services/web-dev">Website Development</a>
                         </div>
                         <div class="p-3 hover:underline">
-                            <a href="/services/yearbooks">Yearbooks</a>
+                            <a href="/services/seo">SEO</a>
                         </div>
                     </div>
                     <a

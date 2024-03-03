@@ -23,6 +23,7 @@
         "@inertiajs/vue3": "^1.0.11",
         "aos": "^2.3.4",
         "vite-plugin-fonts": "^0.7.0",
-        "vite-plugin-static-copy": "^0.17.1"
+        "vite-plugin-static-copy": "^0.17.1",
+        "vue3-carousel": "^0.3.1"
     }
 }

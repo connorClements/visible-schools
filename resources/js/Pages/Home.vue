@@ -112,8 +112,8 @@ import { Head } from "@inertiajs/vue3";
                     one or two products for us. We now contact Visible for any
                     requirement. No one else has ever come to us and delivered
                     such amazing pro-active cost savings plus new and innovative
-                    products to get the school noticed. Great to save hours
-                    every week!"
+                    products to get the school noticed. Plus we save hours of
+                    time every week - and that's a godsend!"
                 </div>
                 <div class="text-sm font-bold pt-4 lg:pt-8">
                     - Julia, Marketing Manager

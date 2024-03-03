@@ -7,9 +7,9 @@
     <link rel="icon" type="image/png" sizes="192x192" href="/build/public/images/logos/logo-no-text.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/build/public/images/logos/logo-no-text.png">
 
-
 <!-- For Android devices -->
     <title>Visible Schools</title>
+    
     
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     @inertiaHead
