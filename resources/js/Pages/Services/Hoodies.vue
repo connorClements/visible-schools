@@ -49,9 +49,21 @@ export default {
     data() {
         return {
             hoodies: [
-                { id: 1, url: "/build/public/images/hoodies/hoodies1.jpg" },
-                { id: 2, url: "/build/public/images/hoodies/hoodies2.jpg" },
-                { id: 3, url: "/build/public/images/hoodies/hoodies3.jpg" },
+                {
+                    id: 1,
+                    url: "/build/public/images/hoodies/hoodies1.jpg",
+                    title: "Black Hoodies",
+                },
+                {
+                    id: 2,
+                    url: "/build/public/images/hoodies/hoodies2.jpg",
+                    title: "Blue Hoodies",
+                },
+                {
+                    id: 3,
+                    url: "/build/public/images/hoodies/hoodies3.jpg",
+                    title: "Olive Hoodies",
+                },
             ],
         };
     },

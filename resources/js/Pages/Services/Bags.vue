@@ -33,8 +33,65 @@ import Slider from "../../Components/Slider.vue";
                         vibrant bags come in a range of hardwearing and
                         sustainable materials at very competitive prices.
                     </div>
+
                     <div class="py-2">
                         Email for our full range of available superb bags.
+                    </div>
+                    <div class="py-2">
+                        Bags are available in a wide range of colours including
+                        -
+                        <div
+                            class="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3"
+                        >
+                            <div class="flex flex-row items-center">
+                                <div
+                                    class="rounded-full p-2 bg-red-500 mr-2 w-[10px] h-[10px]"
+                                ></div>
+                                <span>Red</span>
+                            </div>
+                            <div class="flex flex-row items-center">
+                                <div
+                                    class="rounded-full p-2 bg-blue-500 mr-2 w-[10px] h-[10px]"
+                                ></div>
+                                <span>Blue</span>
+                            </div>
+                            <div class="flex flex-row items-center">
+                                <div
+                                    class="rounded-full p-2 bg-green-500 mr-2 w-[10px] h-[10px]"
+                                ></div>
+                                <span>Green</span>
+                            </div>
+                            <div class="flex flex-row items-center">
+                                <div
+                                    class="rounded-full p-2 bg-zinc-500 mr-2 w-[10px] h-[10px]"
+                                ></div>
+                                <span>Grey</span>
+                            </div>
+                            <div class="flex flex-row items-center">
+                                <div
+                                    class="rounded-full p-2 bg-black mr-2 w-[10px] h-[10px]"
+                                ></div>
+                                <span>Black</span>
+                            </div>
+                            <div class="flex flex-row items-center">
+                                <div
+                                    class="rounded-full p-2 bg-sky-500 mr-2 w-[10px] h-[10px]"
+                                ></div>
+                                <span>Sky Blue</span>
+                            </div>
+                            <div class="flex flex-row items-center">
+                                <div
+                                    class="rounded-full p-2 bg-red-950 mr-2 w-[10px] h-[10px]"
+                                ></div>
+                                <span>Maroon</span>
+                            </div>
+                            <div class="flex flex-row items-center">
+                                <div
+                                    class="rounded-full p-2 bg-orange-500 mr-2 w-[10px] h-[10px]"
+                                ></div>
+                                <span>Orange</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -50,10 +107,26 @@ export default {
     data() {
         return {
             bags: [
-                { id: 1, url: "/build/public/images/bags/bag1.jpg" },
-                { id: 2, url: "/build/public/images/bags/bag2.jpg" },
-                { id: 3, url: "/build/public/images/bags/bag3.jpg" },
-                { id: 4, url: "/build/public/images/bags/bag4.jpg" },
+                {
+                    id: 1,
+                    url: "/build/public/images/bags/bag1.jpg",
+                    title: "School Bags",
+                },
+                {
+                    id: 2,
+                    url: "/build/public/images/bags/bag2.jpg",
+                    title: "Gym Bags",
+                },
+                {
+                    id: 3,
+                    url: "/build/public/images/bags/bag3.jpg",
+                    title: "Lunch Cooler Bags",
+                },
+                {
+                    id: 4,
+                    url: "/build/public/images/bags/bag4.jpg",
+                    title: "Book Bags",
+                },
             ],
         };
     },

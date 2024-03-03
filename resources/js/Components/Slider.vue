@@ -5,9 +5,14 @@
         :wrap-around="false"
         v-model="currentSlide"
     >
-        <Slide v-for="image in items" :key="image.id">
+        <Slide class="relative" v-for="image in items" :key="image.id">
             <div class="carousel__item">
                 <img class="carousel-image" :src="image.url" />
+            </div>
+            <div
+                class="absolute bottom-0 end-0 rounded-md p-2 m-1 bg-zinc-800/75 text-white text-md"
+            >
+                {{ image.title }}
             </div>
         </Slide>
     </Carousel>
