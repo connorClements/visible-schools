@@ -5,9 +5,9 @@
                 <div class="p-1 text-xl">CONTACT</div>
                 <div class="p-1">help@visible-schools.co.uk</div>
                 <div class="p-1">01202 40 33 66</div>
-                <div class="p-1">
-                    26 Wessex Way, Wincanton, Somerset BA9 9RR
-                </div>
+                <div class="p-1">26 Wessex Way, Wincanton</div>
+                <div class="p-1">Somerset</div>
+                <div class="p-1">BA9 9RR</div>
             </div>
             <div class="flex flex-col text-lg">
                 <div class="text-xl p-1">NAVIGATE</div>

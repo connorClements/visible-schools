@@ -75,7 +75,7 @@ import Slider from "../../Components/Slider.vue";
                             </div>
                             <div class="flex flex-row items-center">
                                 <div
-                                    class="rounded-full p-2 bg-sky-500 mr-2 w-[10px] h-[10px]"
+                                    class="rounded-full p-2 bg-sky-400 mr-2 w-[10px] h-[10px]"
                                 ></div>
                                 <span>Sky Blue</span>
                             </div>
