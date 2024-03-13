@@ -24,22 +24,21 @@ import Contact from "../../Components/Contact.vue";
             </div>
             <div class="flex items-center">
                 <div>
-                    <div class="pb-2 text-3xl">Lorem Ipsum</div>
+                    <div class="pb-2 text-3xl">Website Development</div>
 
                     <div class="py-2">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua.
+                        From a complete redesign of your site to a simple
+                        refresh with new, more relevant imagery, your website
+                        forms an essential window into the school.
                     </div>
                     <div class="py-2">
-                        Ut enim ad minim veniam, quis nostrud exercitation
-                        ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        Duis aute irure dolor in reprehenderit in voluptate
-                        velit esse cillum dolore eu fugiat nulla pariatur.
+                        Outstanding is essential with a proper understanding of
+                        how parents and pupils will want to use your site.
                     </div>
                     <div class="py-2">
-                        Excepteur sint occaecat cupidatat non proident, sunt in
-                        culpa qui officia deserunt mollit anim id est laborum.
+                        We can also help with photography, tours, video content,
+                        app development and embedding keywords. Friendly and
+                        experienced, we are on hand for a confidential chat
                     </div>
                 </div>
             </div>

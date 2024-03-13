@@ -18,22 +18,19 @@ import Slider from "../../Components/Slider.vue";
         <div class="grid grid-cols-1 lg:grid-cols-2 p-8 text-xl min-h-[70vh]">
             <div class="flex items-center">
                 <div>
-                    <div class="pb-2 text-3xl">Lorem Ipsum</div>
-
+                    <div class="pb-2 text-3xl">Leavers Hoodies</div>
                     <div class="py-2">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua.
+                        Stylish and great quality, we have the complete range of
+                        leaver hoodies ready to order.
                     </div>
                     <div class="py-2">
-                        Ut enim ad minim veniam, quis nostrud exercitation
-                        ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        Duis aute irure dolor in reprehenderit in voluptate
-                        velit esse cillum dolore eu fugiat nulla pariatur.
+                        All sizes, all colours with a complete offering of
+                        embroidery and print options front and back or to
+                        sleeves, start a chat today about what suits best.
                     </div>
                     <div class="py-2">
-                        Excepteur sint occaecat cupidatat non proident, sunt in
-                        culpa qui officia deserunt mollit anim id est laborum.
+                        Students love our results! Clothing you’ll be proud to
+                        see your school name on.
                     </div>
                 </div>
             </div>

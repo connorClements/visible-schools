@@ -24,22 +24,22 @@ import Contact from "../../Components/Contact.vue";
             </div>
             <div class="flex items-center">
                 <div>
-                    <div class="pb-2 text-3xl">Lorem Ipsum</div>
+                    <div class="pb-2 text-3xl">Prospectuses</div>
+                    <div class="py-2">
+                        A beautiful and well crafted prospectus is the ultimate
+                        showcase for attracting students and staff to your
+                        school.
+                    </div>
 
                     <div class="py-2">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua.
+                        We offer every possible print option for making this
+                        vital marketing piece reflect your values and be
+                        remembered.
                     </div>
                     <div class="py-2">
-                        Ut enim ad minim veniam, quis nostrud exercitation
-                        ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        Duis aute irure dolor in reprehenderit in voluptate
-                        velit esse cillum dolore eu fugiat nulla pariatur.
-                    </div>
-                    <div class="py-2">
-                        Excepteur sint occaecat cupidatat non proident, sunt in
-                        culpa qui officia deserunt mollit anim id est laborum.
+                        Whether you want a completely new look and feel or just
+                        update an existing prospectus, our friendly,
+                        knowledgeable team are on hand to help.
                     </div>
                 </div>
             </div>

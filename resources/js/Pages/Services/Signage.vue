@@ -24,22 +24,22 @@ import Contact from "../../Components/Contact.vue";
             </div>
             <div class="flex items-center">
                 <div>
-                    <div class="pb-2 text-3xl">Lorem Ipsum</div>
+                    <div class="pb-2 text-3xl">Signage</div>
+                    <div class="py-2">
+                        Internal and external signage solutions for schools
+                    </div>
 
                     <div class="py-2">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua.
+                        From aluminium signage to get the building noticed to
+                        internal wayfinding stickers and directional signage, we
+                        can help.
                     </div>
                     <div class="py-2">
-                        Ut enim ad minim veniam, quis nostrud exercitation
-                        ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        Duis aute irure dolor in reprehenderit in voluptate
-                        velit esse cillum dolore eu fugiat nulla pariatur.
+                        There are loads of different material choices – we can
+                        advise which is perfect for the job!
                     </div>
                     <div class="py-2">
-                        Excepteur sint occaecat cupidatat non proident, sunt in
-                        culpa qui officia deserunt mollit anim id est laborum.
+                        We can even arrange installation! Find out more.
                     </div>
                 </div>
             </div>

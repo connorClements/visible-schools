@@ -32,7 +32,7 @@
     "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-v4compatibility.woff2"
   },
   "resources/css/app.css": {
-    "file": "assets/app-146b3db2.css",
+    "file": "assets/app-620c9092.css",
     "isEntry": true,
     "src": "resources/css/app.css"
   },
@@ -113,7 +113,7 @@
     "src": "resources/img/prospectus.jpg"
   },
   "resources/img/schoolbag.jpg": {
-    "file": "assets/schoolbag-de37346f.jpg",
+    "file": "assets/schoolbag-275b7099.jpg",
     "src": "resources/img/schoolbag.jpg"
   },
   "resources/img/seo.jpg": {
@@ -148,7 +148,7 @@
     "css": [
       "assets/app-779f4598.css"
     ],
-    "file": "assets/app-f8ce49f5.js",
+    "file": "assets/app-780427a3.js",
     "isEntry": true,
     "src": "resources/js/app.js"
   },

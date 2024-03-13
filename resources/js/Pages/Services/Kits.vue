@@ -24,23 +24,18 @@ import Contact from "../../Components/Contact.vue";
             </div>
             <div class="flex items-center">
                 <div>
-                    <div class="pb-2 text-3xl">Lorem Ipsum</div>
+                    <div class="pb-2 text-3xl">Sports Kits</div>
+                    <div class="py-2">
+                        Representing the school is a great honour and needs
+                        great looking team kit.
+                    </div>
 
                     <div class="py-2">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua.
+                        Full selection of colours, ages and personalisation
+                        options, we offer very competitive pricing and lightning
+                        fast turnarounds.
                     </div>
-                    <div class="py-2">
-                        Ut enim ad minim veniam, quis nostrud exercitation
-                        ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        Duis aute irure dolor in reprehenderit in voluptate
-                        velit esse cillum dolore eu fugiat nulla pariatur.
-                    </div>
-                    <div class="py-2">
-                        Excepteur sint occaecat cupidatat non proident, sunt in
-                        culpa qui officia deserunt mollit anim id est laborum.
-                    </div>
+                    <div class="py-2">Get in touch to find out more today.</div>
                 </div>
             </div>
         </div>
