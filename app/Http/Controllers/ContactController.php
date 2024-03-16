@@ -20,7 +20,7 @@ class ContactController extends Controller
         ]);
 
         // Send email
-        Mail::to('test@email.com')->send(new ContactFormMail($validatedData));
+        Mail::to('connor.clements@live.co.uk')->send(new ContactFormMail($validatedData));
 
         return response()->json(['message' => 'Message sent! We will get back to you within 24 hours.']);
     }
