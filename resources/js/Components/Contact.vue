@@ -25,26 +25,26 @@ import axios from "axios";
                 <form @submit.prevent="submitForm" class="space-y-4">
                     <div>
                         <label
-                            for="name"
+                            for="full_name"
                             class="block mb-2 text-sm font-medium text-gray-900"
                             >Name *</label
                         >
                         <input
                             type="text"
-                            id="name"
+                            id="full_name"
                             class="shadow-sm bg-gray-50 text-gray-900 text-sm rounded-none focus:ring-gray-500 focus:border-gray-500 block w-full p-2.5 focus:bg-gray-200"
                             :class="
-                                errs.name
+                                errs.fullName
                                     ? 'border-2 border-red-500'
                                     : 'border border-gray-300'
                             "
                             placeholder="Enter your name here"
-                            v-model="formData.name"
+                            v-model="formData.fullName"
                         />
-                        <template v-if="errs.name">
+                        <template v-if="errs.fullName">
                             <div
                                 class="pt-2 text-red-500 text-xs"
-                                v-for="err in errs.name"
+                                v-for="err in errs.fullName"
                                 :key="err"
                             >
                                 {{ err }}
@@ -188,7 +188,7 @@ export default {
     data() {
         return {
             formData: {
-                name: "",
+                fullName: "",
                 email: "",
                 school: "",
                 subject: "",
@@ -206,6 +206,7 @@ export default {
                     console.log(response.data);
                     // Optionally, reset the form after successful submission
                     this.formData = {
+                        fullName: "",
                         email: "",
                         school: "",
                         subject: "",
@@ -213,7 +214,7 @@ export default {
                     };
                 })
                 .catch((error) => {
-                    this.errs = error;
+                    this.errs = error.response.data.errors;
                     console.log(this.errs);
                 });
         },
