@@ -195,6 +195,7 @@ export default {
                 message: "",
             },
             errs: "",
+            successMsg: "",
         };
     },
     methods: {
@@ -204,6 +205,7 @@ export default {
                 .post("/contact-form", this.formData)
                 .then((response) => {
                     console.log(response.data);
+                    this.successMsg = response.data;
                     // Optionally, reset the form after successful submission
                     this.formData = {
                         fname: "",

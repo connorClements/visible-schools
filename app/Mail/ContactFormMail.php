@@ -15,7 +15,7 @@ class ContactFormMail extends Mailable
 
     public function build()
     {
-        return $this->from('contact@visible-schools.co.uk')
+        return $this->from('connor.clements@live.co.uk')
                     ->subject('Contact Form Submission')
                     ->view('emails.contact_form_mail');
     }

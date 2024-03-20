@@ -224,7 +224,7 @@ import { Head } from "@inertiajs/vue3";
 
                         <div class="flex justify-between">
                             <button
-                                type="submit"
+                                @click="submitForm()"
                                 class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-none block p-2.5 hover:bg-gray-200"
                             >
                                 Send message
@@ -249,6 +249,7 @@ export default {
                 message: "",
             },
             errs: "",
+            successMsg: "",
         };
     },
     methods: {
@@ -258,6 +259,7 @@ export default {
                 .post("/contact-form", this.formData)
                 .then((response) => {
                     console.log(response.data);
+                    this.successMsg = response.data;
                     // Optionally, reset the form after successful submission
                     this.formData = {
                         email: "",
@@ -265,6 +267,7 @@ export default {
                         subject: "",
                         message: "",
                     };
+                    this.errs = "";
                 })
                 .catch((error) => {
                     this.errs = error.response.data.errors;
