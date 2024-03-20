@@ -205,7 +205,7 @@ export default {
                 .post("/contact-form", this.formData)
                 .then((response) => {
                     console.log(response.data);
-                    this.successMsg = response.data;
+                    this.successMsg = response.data.message;
                     // Optionally, reset the form after successful submission
                     this.formData = {
                         fname: "",
