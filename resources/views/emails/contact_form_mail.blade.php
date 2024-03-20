@@ -5,7 +5,7 @@
 </head>
 <body>
     <h2>Contact Form Submission</h2>
-    <p><strong>Name:</strong> {{ $data['fullName'] }}</p>
+    <p><strong>Name:</strong> {{ $data['fname'] }}</p>
     <p><strong>Email:</strong> {{ $data['email'] }}</p>
     <p><strong>School:</strong> {{ $data['school'] }}</p>
     <p><strong>Subject:</strong> {{ $data['subject'] }}</p>

@@ -34,17 +34,17 @@ import axios from "axios";
                             id="full_name"
                             class="shadow-sm bg-gray-50 text-gray-900 text-sm rounded-none focus:ring-gray-500 focus:border-gray-500 block w-full p-2.5 focus:bg-gray-200"
                             :class="
-                                errs.fullName
+                                errs.fname
                                     ? 'border-2 border-red-500'
                                     : 'border border-gray-300'
                             "
                             placeholder="Enter your name here"
-                            v-model="formData.fullName"
+                            v-model="formData.fname"
                         />
-                        <template v-if="errs.fullName">
+                        <template v-if="errs.fname">
                             <div
                                 class="pt-2 text-red-500 text-xs"
-                                v-for="err in errs.fullName"
+                                v-for="err in errs.fname"
                                 :key="err"
                             >
                                 {{ err }}
@@ -188,7 +188,7 @@ export default {
     data() {
         return {
             formData: {
-                fullName: "",
+                fname: "",
                 email: "",
                 school: "",
                 subject: "",
@@ -206,7 +206,7 @@ export default {
                     console.log(response.data);
                     // Optionally, reset the form after successful submission
                     this.formData = {
-                        fullName: "",
+                        fname: "",
                         email: "",
                         school: "",
                         subject: "",
